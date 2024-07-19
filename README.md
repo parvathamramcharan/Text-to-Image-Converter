@@ -22,8 +22,7 @@ pip install pillow
 Usage
 Clone the Repository:
 Clone this repository to your local machine using:
-
-bash
+'''
 Copy code
 git clone https://github.com/parvathamramcharan/Text_to_Image_Converter
 Run the Application:
@@ -32,6 +31,8 @@ Navigate to the project directory and execute:
 bash
 Copy code
 python text_to_image_converter.py
+
+
 Enter Text:
 Type or paste the text you want to convert into the text widget.
 
@@ -53,6 +54,5 @@ Configures the main window with a text widget, save button, and status label.
 
 Acknowledgments
 Built with Tkinter and Pillow.
-Inspired by the need to convert text to images easily.
-Author
-GitHub: parvathamramcharan
+
+

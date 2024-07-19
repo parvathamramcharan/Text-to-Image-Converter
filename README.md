@@ -1,59 +1,58 @@
+# Text-to-Image Converter
 
-Here's a README for your Tkinter Text-to-Image Converter application. It provides a clear overview of the application, its features, and how to use it.
+This Tkinter application converts text into an image and allows you to save it as a PNG file. It uses the Pillow library for image creation and manipulation.
 
-Text-to-Image Converter
-This is a Tkinter application that converts text into an image and allows users to save the image as a PNG file. It uses the Pillow library for image creation and manipulation.
+## Features
 
-Features
-Text Input: Enter and edit text in a large text widget.
-Image Generation: Converts text into an image with customizable font size.
-Save Functionality: Save the generated image as a PNG file through a file dialog.
-Error Handling: Provides feedback if image creation or saving fails.
-Requirements
-Python 3.x
-Tkinter (usually included with Python)
-Pillow (Python Imaging Library fork)
+- **Text Input**: Enter and edit text in a large text widget.
+- **Image Generation**: Converts text into an image with a customizable font size.
+- **Save Functionality**: Save the generated image as a PNG file through a file dialog.
+- **Error Handling**: Provides feedback if image creation or saving fails.
+
+## Requirements
+
+- **Python 3.x**
+- **Tkinter** (usually included with Python)
+- **Pillow** (Python Imaging Library fork)
+
 To install the required Python package, run:
+
+```bash
+pip install pillow
+Usage
+Clone the Repository:
+Clone this repository to your local machine using:
 
 bash
 Copy code
-pip install pillow
-Usage
+git clone https://github.com/parvathamramcharan/Text_to_Image_Converter
 Run the Application:
-Execute the script to launch the Tkinter application.
+Navigate to the project directory and execute:
 
 bash
 Copy code
 python text_to_image_converter.py
 Enter Text:
-Type or paste the text you want to convert into the large text widget.
+Type or paste the text you want to convert into the text widget.
 
 Save Image:
-Click the "Save Image" button to open a file dialog. Choose the location and name for the saved PNG image.
+Click the "Save Image" button to open a file dialog. Choose where to save the PNG image.
 
 Check Status:
-The status label will display messages about the success or failure of the image creation and saving operations.
+The status label will update with information about the operation's success or failure.
 
 Code Overview
 create_image_with_text(text, font_size):
+Generates an image from the text with the specified font size and adds padding.
 
-Generates an image from the provided text and font size.
-Calculates the image size based on the text dimensions and adds padding.
-Draws the text onto a white background image.
 save_image():
+Retrieves text from the widget, creates the image, and saves it via a file dialog.
 
-Retrieves text from the Tkinter Text widget.
-Calls create_image_with_text to create the image.
-Opens a file dialog for the user to select the save location.
-Updates the status label based on the success or failure of the save operation.
 Tkinter Setup:
-
-Configures the main application window with a text widget, save button, and status label.
-Example
- (Replace this with an actual example image if available)
+Configures the main window with a text widget, save button, and status label.
 
 Acknowledgments
 Built with Tkinter and Pillow.
-Inspired by the need for a simple text-to-image converter.
+Inspired by the need to convert text to images easily.
 Author
 GitHub: parvathamramcharan

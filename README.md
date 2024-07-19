@@ -17,12 +17,11 @@ This Tkinter application converts text into an image and allows you to save it a
 
 To install the required Python package, run:
 
-```bash
+bash
 pip install pillow
 Usage
 Clone the Repository:
 Clone this repository to your local machine using:
-'''
 Copy code
 git clone https://github.com/parvathamramcharan/Text_to_Image_Converter
 Run the Application:

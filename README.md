@@ -30,8 +30,9 @@ git clone https://github.com/parvathamramcharan/Text_to_Image_Converter
 ```
 **Run the Application:**
 Navigate to the project directory and execute:
+```bash
 python text_to_image_converter.py
-
+```
 
 **Enter Text:**
 Type or paste the text you want to convert into the text widget.

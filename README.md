@@ -15,7 +15,7 @@ This Tkinter application converts text into an image and allows you to save it a
 - **Tkinter** (usually included with Python)
 - **Pillow** (Python Imaging Library fork)
 
-To install the required Python package, run:
+# To install the required Python package, run:
 
 '''bash
 pip install pillow
@@ -27,7 +27,7 @@ git clone https://github.com/parvathamramcharan/Text_to_Image_Converter
 Run the Application:
 Navigate to the project directory and execute:
 
-bash
+'''bash
 Copy code
 python text_to_image_converter.py
 

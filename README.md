@@ -17,18 +17,15 @@ This Tkinter application converts text into an image and allows you to save it a
 
 # To install the required Python package, run:
 
-'''bash
 pip install pillow
-Usage
+<br>
+# Usage
 Clone the Repository:
 Clone this repository to your local machine using:
-Copy code
 git clone https://github.com/parvathamramcharan/Text_to_Image_Converter
+<br>
 Run the Application:
 Navigate to the project directory and execute:
-
-'''bash
-Copy code
 python text_to_image_converter.py
 
 
@@ -41,17 +38,17 @@ Click the "Save Image" button to open a file dialog. Choose where to save the PN
 Check Status:
 The status label will update with information about the operation's success or failure.
 
-Code Overview
+## Code Overview
 create_image_with_text(text, font_size):
 Generates an image from the text with the specified font size and adds padding.
-
+<br>
 save_image():
 Retrieves text from the widget, creates the image, and saves it via a file dialog.
-
+<br>
 Tkinter Setup:
 Configures the main window with a text widget, save button, and status label.
 
-Acknowledgments
+# Acknowledgments
 Built with Tkinter and Pillow.
 
 
